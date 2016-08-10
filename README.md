@@ -1,7 +1,7 @@
 # significant-rounding
 
 
-    function(number, maxDecimals, trailingZeros, minDecimals)
+    function(number, decimals, trailingZeros = false, minDecimals = 2, significantRounding=false)
 If absolute number is greater than zero (num > 0) then minDecimals and normal formatting is used.
   
     rounding(123.123456, 5);            //Outputs 123.12
