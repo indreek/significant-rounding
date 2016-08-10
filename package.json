@@ -1,6 +1,6 @@
 {
   "name": "significant-rounding",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Significant rounding",
   "main": "index.js",
   "scripts": {

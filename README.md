@@ -15,3 +15,4 @@ If absolute number is less than zero (num < 0) then maxDecimals and significant 
     rounding(0.0123456789, 5);          //Outputs 0.012346
     rounding(0.012, 5);                 //Outputs 0.012
     rounding(0.012, 5, true);           //Outputs 0.012000
+    rounding(0.0123001, 5, true);       //Outputs 0.012300
